@@ -47,7 +47,7 @@ const Footer = () => {
         <div>
           <h3 className="text-[#e2e8f0] text-[20px] font-semibold">
             developed by
-            <a href="https://github.com/codeguyakash">@codeguyakash</a>
+            <a href="https://github.com/codeguyakash"> @codeguyakash</a>
           </h3>
         </div>
       </div>
