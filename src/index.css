@@ -19,10 +19,10 @@ body {
   --sb-size: 0;
   scrollbar-color: var(--primary-color) var(--secondary-color);
   transition: 0.5ms;
-  background-image: url("./assets/background.jpg");
-  background-position: center;
+  background-image: url("./assets/background0.jpg");
+  /* background-position: center; */
   background-size: contain;
-  /* background-repeat: no-repeat; */
+  object-fit: cover;
 }
 .body {
   backdrop-filter: blur(16px) saturate(180%);

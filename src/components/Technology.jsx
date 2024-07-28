@@ -1,4 +1,5 @@
 import octotechlogo from "../assets/icons/octotech.png";
+import SkillCard from "./SkillCard";
 import { IoLogoJavascript } from "react-icons/io";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaReact } from "react-icons/fa";
@@ -6,8 +7,11 @@ import { FaNodeJs } from "react-icons/fa";
 import { RiNextjsLine } from "react-icons/ri";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
-
-import SkillCard from "./SkillCard";
+import { GrMysql } from "react-icons/gr";
+import { SiPostgresql } from "react-icons/si";
+import { FaPython } from "react-icons/fa";
+import { FaGolang } from "react-icons/fa6";
+import { SiNginx } from "react-icons/si";
 
 const Technology = () => {
   const size = "text-6xl mx-auto text-white";
@@ -19,6 +23,11 @@ const Technology = () => {
     { name: "TailwindCSS", icons: <RiTailwindCssFill className={size} /> },
     { name: "ExpressJs", icons: <SiExpress className={size} /> },
     { name: "MongoDB", icons: <SiMongodb className={size} /> },
+    { name: "MySQL", icons: <GrMysql className={size} /> },
+    { name: "Postgres", icons: <SiPostgresql className={size} /> },
+    { name: "Python", icons: <FaPython className={size} /> },
+    { name: "Go Lang", icons: <FaGolang className={size} /> },
+    { name: "Nginx", icons: <SiNginx className={size} /> },
   ];
 
   return (
